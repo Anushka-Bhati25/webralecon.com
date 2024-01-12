@@ -72,8 +72,8 @@
         <nav id="my-nav1" class="navbar navbar-expand-sm navbar-light rounded-bar">
             <div class="container">
                 <div class="logo">
-                    <a href="index.html" class="scroll"><img
-                            src="consulting-startup/img/logo_img.png" alt="Logo Img" style="height: 2rem;"></a>
+                    <a href="index.html" class="scroll"><img src="consulting-startup/img/logo_img.png" alt="Logo Img"
+                            style="height: 2rem;"></a>
                 </div>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent1">
                     <div class="collapse navbar-collapse">
@@ -140,7 +140,7 @@
     <!-- START REV SLIDER SECTION -->
     <div id="home">
         <div id="rev_slider_2_1_wrapper" class="rev_slider_wrapper fullscreen-container" data-alias="yogaslider"
-            data-source="gallery" style="background:transparent;padding:0;">
+            data-source="gallery" style="background:transparent;padding:0; ">
             <div id="rev_slider_2_1" class="rev_slider fullscreenbanner" style="display:none;" data-version="5.4.8.1">
                 <ul>
                     <!-- SLIDE 1 -->
@@ -151,159 +151,33 @@
                         data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
                         data-param9="" data-param10="" data-description="">
                         <!-- MAIN IMAGE -->
-                        <img src="consulting-startup/img/slider_img/banner1.jpg" alt="" data-bgposition="center center"
-                            data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg"
-                            data-no-retina>
+                        <img src="./vendor/img/social-media-image-sizes.jpg" alt="" data-bgposition="center center" data-bgfit="cover"
+                        data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg" data-no-retina>
                         <!-- LAYERS -->
-
-                        <!-- LAYER-overlay -->
-                        <div class="layer-overlay"></div>
-                        <!-- LAYERS-overlay -->
-
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption rev-btn" id="slide-4-layer-2"
-                            data-x="['center','center','center','center']" data-hoffset="['1','1','1','1']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['100','100','50','0']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
-                            data-responsive_offset="on" data-responsive="off"
-                            data-frames='[{"delay":10,"speed":3500,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:50px;opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"600ms","ease":"Power3.easeIn","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);;bs:solid;bw:0 0 0 0;br:30px 30px 30px 30px;"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[15,15,15,15]"
-                            data-paddingright="[38,38,38,38]" data-paddingbottom="[15,15,15,15]"
-                            data-paddingleft="[38,38,48,38]"
-                            style="z-index: 5; white-space: nowrap; font-size: 15px; line-height: 15px; font-weight: 300; color: rgba(255,255,255,1); letter-spacing:0 ;font-family:'Raleway', sans-serif; background:linear-gradient(to right, #5192e1 0%, #23ced5 21%, #5192e1 100%);border-color:rgba(0,0,0,1);border-radius:50px 50px 50px 50px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                            <a class="white_text" href="javascript:void(0);">Get Started</a>
+                        <div  style="display: block; position: absolute; top: 50%; right: 10%; transform: translateY(-50%); z-index: 2; padding: 30px; background-color: rgba(255, 255, 255, 0.8); border-radius:30px; border:2px solid #0d1193; max-width: 350px;">
+                            <h2 class="title" style="background-color:white; border-radius:30px; color:#1914ad; margin-top: 0;">Make an Appointment</h2>
+                            <form action="process_form_banner.php" method="post">
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="name" placeholder="Enter name" name="name" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="email" class="form-control" id="email" placeholder="Enter email" name="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="phone_number" placeholder="Phone Number" name="phone_number" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="from_where" placeholder="From" name="from_where" required>
+                                </div>
+                                <div class="form-group">
+                                    <input type="text" class="form-control" id="destination" placeholder="To" name="destination" required>
+                                </div>
+                                <div class="form-group">
+                                    <textarea class="form-control" rows="3" id="message" placeholder="Message" name="message" required></textarea>
+                                </div>
+                                <button type="submit" onclick="showPopup()" class="btn book-now-btn">Book Now</button>
+                            </form>
                         </div>
-
-                        <!-- LAYER NR. 2 -->
-                        <div class="tp-caption   tp-resizeme" id="slide-4-layer-3"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['22','22','-35','-78']"
-                            data-fontsize="['24','24','24','16']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"delay":400,"speed":2500,"frame":"0","from":"z:0;rX:0;rY:0;rZ:0;sX:0.9;sY:0.9;skX:0;skY:0;opacity:0;","to":"o:1;","ease":"Power3.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"opacity:0;","ease":"Power2.easeIn"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 6; white-space: nowrap; font-size: 24px; line-height: 34px; font-weight: 300; color: #ffffff; letter-spacing: 0;font-family:'Open Sans', sans-serif;">
-                            Lorem ipsum dolor sit amet, consectetur.</div>
-
-                        <!-- LAYER NR. 3 -->
-                        <div class="tp-caption   tp-resizeme" id="slide-4-layer-4"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-120','-150']"
-                            data-fontsize="['72','72','72','50']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"delay":0,"split":"lines","splitdelay":0.05,"speed":3500,"split_direction":"forward","frame":"0","from":"y:-50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","split":"lines","splitdelay":0.05,"speed":1000,"split_direction":"forward","frame":"999","to":"y:-50px;opacity:0;","ease":"Power3.easeInOut"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 7; white-space: nowrap; font-size: 72px; line-height: 85px; font-weight: 200; color: #ffffff; letter-spacing: 0;font-family:'Raleway', sans-serif;">
-                            Consulting Startup</div>
-                    </li>
-
-                    <!-- SLIDE 2 -->
-                    <li data-index="rs-6" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                        data-masterspeed="default" data-thumb="consulting-startup/img/slider_img/thumb2.jpg"
-                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                        data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                        data-param9="" data-param10="" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="consulting-startup/img/slider_img/banner-2.jpg" alt="" data-bgposition="center center"
-                            data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg"
-                            data-no-retina>
-                        <!-- LAYERS -->
-
-                        <div class="layer-overlay"></div>
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption   tp-resizeme" id="slide-6-layer-3"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['22','22','-35','-78']"
-                            data-fontsize="['24','24','24','16']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"delay":150,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 5; white-space: nowrap; font-size: 24px; line-height: 34px; font-weight: 300; color: #ffffff; letter-spacing: 0;font-family:'Open Sans', sans-serif;">
-                            Lorem ipsum dolor sit amet, consectetur.</div>
-
-                        <!-- LAYER NR. 2 -->
-                        <div class="tp-caption   tp-resizeme" id="slide-6-layer-4"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-120','-150']"
-                            data-fontsize="['72','72','72','50']" data-fontweight="['300','100','100','100']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 6; white-space: nowrap; font-size: 72px; line-height: 85px; font-weight: 200; color: #ffffff; letter-spacing: 0;font-family:'Raleway', sans-serif;">
-                            Consult Corporate</div>
-
-                        <!-- LAYER NR. 3 -->
-                        <div class="tp-caption   tp-resizeme" id="slide-6-layer-7"
-                            data-x="['center','center','center','center']" data-hoffset="['-130','-50','-30','-40']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['100','100','50','0']"
-                            data-width="['160','160','260','320']" data-height="none" data-whitespace="nowrap"
-                            data-type="button" data-responsive_offset="on"
-                            data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"y:50px;opacity:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":280,"frame":"999","to":"opacity:0;","ease":"Power3.easeInOut"},{"frame":"hover","speed":"500","ease":"Linear.ease","to":"o:1;rX:0;rY:0;rZ:0;z:0;"}]'
-                            data-textAlign="['inherit','inherit','inherit','center']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 11; white-space: nowrap; font-size: 15px; line-height: 17px; font-weight: 300; color: #ffffff; letter-spacing: 0;font-family:'Raleway', sans-serif;">
-                            <a href="#about" class="btn btn-slider tarns-white mr-2"> Read More</a> <a
-                                href="consulting-startup/contact-us.html"
-                                class="btn btn-slider gradient-blue-btn">Contact Us</a>
-                        </div>
-                    </li>
-
-                    <!-- SLIDE 3 -->
-                    <li data-index="rs-8" data-transition="crossfade" data-slotamount="default" data-hideafterloop="0"
-                        data-hideslideonmobile="off" data-easein="default" data-easeout="default"
-                        data-masterspeed="default" data-thumb="consulting-startup/img/slider_img/thumb3.jpg"
-                        data-rotate="0" data-saveperformance="off" data-title="Slide" data-param1="" data-param2=""
-                        data-param3="" data-param4="" data-param5="" data-param6="" data-param7="" data-param8=""
-                        data-param9="" data-param10="" data-description="">
-                        <!-- MAIN IMAGE -->
-                        <img src="consulting-startup/img/slider_img/banner-3.jpg" alt="" data-bgposition="center center"
-                            data-bgfit="cover" data-bgrepeat="no-repeat" data-bgparallax="off" class="rev-slidebg"
-                            data-no-retina>
-                        <!-- LAYERS -->
-
-                        <!-- LAYER NR. 1 -->
-                        <div class="tp-caption   tp-resizeme" id="slide-8-layer-3"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['22','22','-35','-78']"
-                            data-fontsize="['24','24','24','16']" data-width="none" data-height="none"
-                            data-whitespace="nowrap" data-type="text" data-responsive_offset="on"
-                            data-frames='[{"delay":150,"speed":2000,"sfxcolor":"#ffffff","sfx_effect":"blockfromright","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 5; white-space: nowrap; font-size: 24px; line-height: 34px; font-weight: 300; color: #ffffff; letter-spacing: 0;font-family:'Open Sans', sans-serif;">
-                            Lorem ipsum dolor sit amet, consectetur.</div>
-
-                        <!-- LAYER NR. 2 -->
-                        <div class="tp-caption   tp-resizeme" id="slide-8-layer-4"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['-50','-50','-120','-150']"
-                            data-fontsize="['72','72','72','50']" data-fontweight="['300','300','300','100']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="text"
-                            data-responsive_offset="on"
-                            data-frames='[{"delay":10,"speed":2000,"sfxcolor":"#ffffff","sfx_effect":"blockfromleft","frame":"0","from":"z:0;","to":"o:1;","ease":"Power4.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[0,0,0,0]"
-                            data-paddingright="[0,0,0,0]" data-paddingbottom="[0,0,0,0]" data-paddingleft="[0,0,0,0]"
-                            style="z-index: 6; white-space: nowrap; font-size: 72px; line-height: 85px; font-weight: 300; color: #ffffff; letter-spacing: 0;font-family:'Raleway', sans-serif;">
-                            Beneficial Services </div>
-
-                        <!-- LAYER NR. 3 -->
-                        <a href="#about" class="tp-caption rev-btn pagescroll " id="slide-8-layer-7"
-                            data-x="['center','center','center','center']" data-hoffset="['0','0','0','0']"
-                            data-y="['middle','middle','middle','middle']" data-voffset="['100','100','50','0']"
-                            data-width="none" data-height="none" data-whitespace="nowrap" data-type="button"
-                            data-responsive_offset="on" data-responsive="off"
-                            data-frames='[{"delay":10,"speed":2000,"frame":"0","from":"y:[100%];z:0;rX:0deg;rY:0;rZ:0;sX:1;sY:1;skX:0;skY:0;opacity:0;","mask":"x:0px;y:[100%];s:inherit;e:inherit;","to":"o:1;","ease":"Power2.easeInOut"},{"delay":"wait","speed":1000,"frame":"999","to":"y:[100%];","mask":"x:inherit;y:inherit;s:inherit;e:inherit;","ease":"nothing"},{"frame":"hover","speed":"600ms","ease":"Power1.easeIn","to":"o:1;rX:0;rY:0;rZ:0;z:0;","style":"c:rgb(255,255,255);bg:linear-gradient(to right, #5192e1 0%, #23ced5 51%, #5192e1 100%);bs:solid;bw:0 0 0 0;"}]'
-                            data-textAlign="['inherit','inherit','inherit','inherit']" data-paddingtop="[15,15,15,15]"
-                            data-paddingright="[38,38,38,38]" data-paddingbottom="[15,15,15,15]"
-                            data-paddingleft="[38,38,48,38]"
-                            style="z-index: 7; white-space: nowrap; font-size: 15px; line-height: 17px; font-weight: 300; color: #ffffff; letter-spacing:0 ;font-family:'Raleway', sans-serif;background:linear-gradient(to right, #5192e1 0%, #23ced5 21%, #5192e1 100%);border-color:rgba(0,0,0,1);border-radius:30px 30px 30px 30px;outline:none;box-shadow:none;box-sizing:border-box;-moz-box-sizing:border-box;-webkit-box-sizing:border-box;cursor:pointer;">
-                            Read More</a>
                     </li>
                 </ul>
                 <div class="tp-bannertimer tp-bottom" style="visibility: hidden !important;"></div>
@@ -316,33 +190,34 @@
     <section id="about" class="about">
         <div class="container">
             <div class="row">
-                <div class=" col-sm-12 col-md-6 col-lg-6 img-sc">
+                <!-- <div class=" col-sm-12 col-md-6 col-lg-6 img-sc">
                     <div class="blue_rectangle"></div>
                     <div class="about_img margin_aboutimg">
                         <img src="consulting-startup/img/about/about_logo1.jpg" alt="ABOUT Image">
                     </div>
-                </div>
+                </div> -->
 
                 <div class="col-sm-12 col-md-6 col-lg-6">
                     <div class="about-heading">
-                        <p class="colored_heading wow fadeInUp" data-wow-delay="400ms" data-wow-duration="0.5s"
+                        <!-- <h1 class="colored_heading wow fadeInUp" data-wow-delay="400ms" data-wow-duration="0.5s"
                             style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">Information
-                            about us</p>
+                            about us</h1> -->
+                            <h5 style="color: #1b7df5; ">Information
+                                about us</h5>
                         <h1 class="heading margin_heading wow fadeInUp" data-wow-delay="600ms" data-wow-duration="0.8s"
-                            style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;">Our Business
-                            Story</h1>
+                            style="visibility: visible; animation-delay: 300ms; animation-name: fadeInUp;"> <span
+                                style="">Webralecon India -</span> Digital Marketing Company in Gurugram
+                        </h1>
                         <p class="info  wow fadeInUp" data-wow-delay="800ms" data-wow-duration="1.3s"
-                            style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">Lorem ipsum
-                            dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut
-                            labore et dolore magna aliqua. Ut enim veniam, quis nostrud exercitation ullamco laboris
-                            nisi
-                            in voluptate velit esse cillum.<span class="mt-3">
-                                dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-                                sunt in culpa qui officia deserunt mollit anim id est laborum.</span></p>
+                            style="visibility: visible; animation-delay: 400ms; animation-name: fadeInUp;">Webralecon
+                            India Pvt Ltd is an experienced, innovative and dynamic Digital Marketing Company in Gurgaon
+                            (India) spearheading with a focus to provide quality lead generation through cost effective
+                            Digital Marketing and Search Engine Optimization services for small, medium and large sized
+                            businesses to grow organically and make their presence globally</p>
                         <a href="consulting-startup/about.html"
-                            class="btn btn-large btn-primary margin_button  wow fadeInUp" data-wow-delay="900ms"
+                            class="btn btn-large btn-danger margin_button  wow fadeInUp" data-wow-delay="900ms"
                             data-wow-duration="1s"
-                            style="visibility: visible; animation-delay: 600ms; animation-name: fadeInUp;">Read More</a>
+                            style="visibility: visible; animation-delay: 600ms; animation-name: fadeInUp; ">Read More</a>
                     </div>
                 </div>
             </div>
@@ -362,10 +237,15 @@
                         </div>
 
                         <div class="card-body">
-                            <h5 class="card-title">Unique Ideas</h5>
-                            <p class="card-text info">sed diam nonummy nibh euismod laoreeadipiscing elit Excepteur sint
-                                occaecat cupidatat non proident,
-                                sunt in culpa diam.</p>
+                            <a href="./consulting-startup/seoSevices.html">
+                                <h5 class="card-title">SEO Services</h5>
+                                <p class="card-text info">Webralecon India is a leading Digital Marketing Company in
+                                    Gurgaon that provides online strategies and techniques to promote businesses,
+                                    products, or services on the internet. It involves activities such as search engine
+                                    optimization (SEO), social media marketing, content marketing, pay-per-click
+                                    advertising, email marketing, and more. SEO (Search Engine Optimization) is a
+                                    crucial aspect of digital marketing.</p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -408,7 +288,7 @@
 
     <!-- WHY YOU CHOOSE START -->
 
-    <section id="team" class="team padding-down" style="background-color: #220670;">
+    <section id="team" class="team padding-down" style="background-color: #5a99e7;">
         <div class="container">
             <div class="row">
                 <div class="col-12">
@@ -420,7 +300,7 @@
                 </div>
             </div>
 
-            <div class="owl-team owl-carousel owl-theme ">
+            <div class="owl-team owl-carousel owl-theme  ">
                 <!-- Item 1 -->
                 <div class="item">
                     <div class="testimonial-box">
@@ -493,124 +373,6 @@
     </section>
 
     <!-- WHY YOU CHOOSE END -->
-
-
-
-    <!-- START GALLERY SECTION -->
-    <section id="portfolio_top" class="portfolio_top py-0">
-        <div class="container">
-            <div class="col-sm-12 col-md-12">
-                <div class="cbp-item small-screen">
-                    <div class="text_wrap wow fadeIn" data-wow-delay="350ms">
-                        <div class="portfolio-heading">
-                            <p class="colored_heading text_color">Watch exclusive</p>
-                            <h1 class="heading heading_color new_font">New Projects</h1>
-                            <p class="info info_margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-                                eiusmod tempor incididunt ut
-                                labore et dolore magna aliqua.</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="wow fadeInUp" data-wow-delay="250ms" data-wow-duration="1.5s"
-                    style="visibility: visible; animation-delay: 250ms; animation-name: fadeInUp;">
-
-                    <div id="portfolio-measonry" class="cbp border-portfolio simple_overlay">
-
-                        <div class="cbp-item itemshadow">
-                            <div class="padding_box">
-                                <figure class="snip0015">
-                                    <img class="padding_color" src="consulting-startup/img/portfolio1.jpg" alt="">
-                                    <figcaption>
-                                        <div class="caption_center">
-                                            <i class="las la-plus plus_icon"></i>
-                                            <h3 class="hover_heading">View Project</h3>
-                                            <p>Lorem ipsum dolor sit, consectetur.</p>
-                                        </div>
-                                        <a href="consulting-startup/img/portfolio1.jpg" data-fancybox="gallery1"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="cbp-item large-screen">
-                            <div class="text_wrap wow fadeIn" data-wow-delay="350ms">
-                                <div class="portfolio-heading">
-                                    <p class="colored_heading text_color">Watch exclusive</p>
-                                    <h1 class="heading heading_color">New Projects</h1>
-                                    <p class="info info_margin">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                                        sed do eiusmod tempor incididunt ut
-                                        labore et dolore magna aliqua.</p>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="cbp-item itemshadow">
-                            <div class="padding_box">
-                                <figure class="snip0015">
-                                    <img class="padding_color" src="consulting-startup/img/portfolio2.jpg" alt="">
-                                    <figcaption>
-                                        <div class="caption_center">
-                                            <i class="las la-plus plus_icon"></i>
-                                            <h3 class="hover_heading">View Project</h3>
-                                            <p>Lorem ipsum dolor sit, consectetur</p>
-                                        </div>
-                                        <a href="consulting-startup/img/portfolio2.jpg" data-fancybox="gallery1"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="cbp-item itemshadow">
-                            <div class="padding_box">
-                                <figure class="snip0015">
-                                    <img class="padding_color" src="consulting-startup/img/portfolio3.jpg" alt="">
-                                    <figcaption>
-                                        <div class="caption_center">
-                                            <i class="las la-plus plus_icon"></i>
-                                            <h3 class="hover_heading">View Project</h3>
-                                            <p>Lorem ipsum dolor sit, consectetur</p>
-                                        </div>
-                                        <a href="consulting-startup/img/portfolio3.jpg" data-fancybox="gallery1"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="cbp-item itemshadow">
-                            <div class="padding_box">
-                                <figure class="snip0015">
-                                    <img class="padding_color" src="consulting-startup/img/portfolio4.jpg" alt="">
-                                    <figcaption>
-                                        <div class="caption_center">
-                                            <i class="las la-plus plus_icon"></i>
-                                            <h3 class="hover_heading">View Project</h3>
-                                            <p>Lorem ipsum dolor sit, consectetur</p>
-                                        </div>
-                                        <a href="consulting-startup/img/portfolio4.jpg" data-fancybox="gallery1"></a>
-                                    </figcaption>
-                                </figure>
-                            </div>
-                        </div>
-
-                        <div class="cbp-item">
-                            <div class="cells">
-                                <div class="portfolio-heading1">
-                                    <h1 class="main_heading">We have many more</h1>
-                                    <p class="info">Lorem ipsum dolor sit amet, consectetur adipiscing elit labore et
-                                        dolore magna aliqua.</p>
-                                    <a href="consulting-startup/projects.html" class="btn btn-large btn-primary">View
-                                        All</a>
-                                </div>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- END GALLERY SECTION -->
 
     <!-- START COUNTER SECTION -->
     <section id="counters" class="counters padding-down">
