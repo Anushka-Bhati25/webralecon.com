@@ -87,8 +87,18 @@
                             <li class="nav-item">
                                 <a class="seventh nav-link before after" href="about.html">About Us</a>
                             </li>
-                            <li class="nav-item">
-                                <a class="seventh nav-link before after active" href="#">Services</a>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="./services.html" id="navbarDropdown"
+                                    role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    Services
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                                    <a class="dropdown-item" href="./seoPages/linkBuilding.html">Link Building</a>
+                                    <a class="dropdown-item" href="./seoPages/localSeo.html">Local Seo</a>
+                                    <!-- <div class="dropdown-divider"></div> -->
+                                    <a class="dropdown-item" href="./seoPages/nationalSeo.html">National Seo</a>
+                                    <a class="dropdown-item" href="./seoPages/organicSEO.html">Organic Seo</a>
+                                </div>
                             </li>
                             <li class="nav-item">
                                 <a class="seventh nav-link before after" href="blog.html">Blog</a>
@@ -193,61 +203,104 @@
         <div id="photoUploadChart"></div>
     </div>
     <!-- START DETAIL SECTION -->
-    <div id="detail_process" class="detail_process">
+    <div id="detail_process" class="detail_process justify-content-between">
         <!-- First Row -->
-        <div class="row no-gutters container">
-            <div class="col-sm-4 col-lg-4 overflow-hidden">
-                <div class="process_image figure wow slideInLeft mt-4" data-wow-delay="900ms" data-wow-duration="0.8s"
-                    style="visibility: visible; animation-delay: 700ms; animation-name: slideInLeft;">
-                    <img src="img/services/01-removebg-preview.png" alt="process image" width="auto" height="150px">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 overflow-hidden">
+                    <div class="process_image figure wow slideInLeft mt-4" data-wow-delay="900ms"
+                        data-wow-duration="0.8s"
+                        style="visibility: visible; animation-delay: 700ms; animation-name: slideInLeft;">
+                        <img src="img/localSeo/lgms1 copy.png" class="img-fluid" alt="process image">
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-12 col-lg-6 margin-col">
-                <div class="process_text wow slideInRight" data-wow-delay="900ms" data-wow-duration="0.10s"
-                    style="visibility: visible; animation-delay: 700ms; animation-name: slideInRight;">
-                    <!-- <p class="colored_heading">Our Services</p> -->
-                    <h3 class="fw-bolder">Local & Google Maps SEO</h3>
-                    <p class="info info_width">Attract more customers from your local area. Webrelacon SEO Company’s specialized local SEO services are tailored to help businesses like yours to further establish and optimize their online presence, reaching more local customers.</p>
-                    <button class="btn-danger rounded-5 rounded-bottom-5"><a class="btn-danger" href="seoPages/localSeo.html">read more </a></button>
+                <div class="col-md-6 margin-col">
+                    <div class="test-center ml-3 wow slideInRight" data-wow-delay="900ms" data-wow-duration="0.10s"
+                        style="visibility: visible; animation-delay: 700ms; animation-name: slideInRight;">
+                        <h3 class="fw-bolder">Local & Google Maps SEO</h3>
+                        <p class="info info_width">Attract more customers from your local area. Webrelacon SEO Company’s
+                            specialized local SEO services are tailored to help businesses like yours to further
+                            establish and optimize their online presence, reaching more local customers.</p>
+                        <button class="btn btn-danger rounded-5 rounded-bottom-5"><a class="text-white"
+                                href="seoPages/localSeo.html">Read more</a></button>
+                    </div>
                 </div>
             </div>
         </div>
+
+        <hr class="dot1">
         <!-- Second row  -->
-        <div class="row no-gutters container mt-4">
-            <div class="col-sm-4 col-lg-4 overflow-hidden">
-                <div class="process_image figure wow slideInLeft" data-wow-delay="900ms" data-wow-duration="0.15s"
-                    style="visibility: visible; animation-delay: 700ms; animation-name: slideInLeft;">
-                    <img src="img/services/02-removebg-preview.png" alt="process image" width="auto" height="150px">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 overflow-hidden">
+                    <div class="process_image figure wow slideInLeft mt-4" data-wow-delay="900ms"
+                        data-wow-duration="0.8s"
+                        style="visibility: visible; animation-delay: 700ms; animation-name: slideInLeft;">
+                        <img src="img/organicSeo/lgms4 copy.png" class="img-fluid" alt="process image">
+                    </div>
+                </div>
+                <div class="col-md-6 margin-col">
+                    <div class="test-center ml-3 wow slideInRight" data-wow-delay="900ms" data-wow-duration="0.10s"
+                        style="visibility: visible; animation-delay: 700ms; animation-name: slideInRight;">
+                        <h3 class="fw-bolder">Organic SEO</h3>
+                        <p class="info info_width">Looking to enhance your online presence on search engines such as
+                            Google, Bing, or Yahoo? We have the ability to assist you in achieving a higher ranking
+                            through natural methods. By adhering to strong ethical principles, we utilize data-driven,
+                            white hat strategies to elevate your business's position.</p>
+                        <button class="btn btn-danger rounded-5 rounded-bottom-5"><a class="text-white"
+                                href="seoPages/organicSEO.html">Read more</a></button>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-6 margin-col">
-                <div class="process_text wow slideInRight" data-wow-delay="900ms" data-wow-duration="0.8s"
-                    style="visibility: visible; animation-delay: 700ms; animation-name: slideInRight;">
-                    <!-- <p class="colored_heading">Our Services</p> -->
-                    <h3 class="fw-bolder">Organic SEO</h3>
-                    <p class="info info_width">Looking to enhance your online presence on search engines such as Google, Bing, or Yahoo? We have the ability to assist you in achieving a higher ranking through natural methods. By adhering to strong ethical principles, we utilize data-driven, white hat strategies to elevate your business's position.</p>
-                    <button class="btn-danger rounded-5 rounded-bottom-5"><a class="btn-danger" href="seoPages/organicSEO.html">read more </a></button>
-                </div>
-            </div>
-        </div>  
+        </div>
+        <hr>
         <!-- third row -->
-        <div class="row no-gutters container mt-4">
-            <div class="col-sm-4 col-lg-4 overflow-hidden">
-                <div class="process_image figure wow slideInLeft" data-wow-delay="900ms" data-wow-duration="0.15s"
-                    style="visibility: visible; animation-delay: 700ms; animation-name: slideInLeft;">
-                    <img src="img/services/03.jpeg" alt="process image" width="auto" height="150px">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 overflow-hidden">
+                    <div class="process_image figure wow slideInLeft mt-4" data-wow-delay="900ms"
+                        data-wow-duration="0.8s"
+                        style="visibility: visible; animation-delay: 700ms; animation-name: slideInLeft;">
+                        <img src="img/link-building/os4 copy.png" class="img-fluid" alt="process image">
+                    </div>
+                </div>
+                <div class="col-md-6 margin-col">
+                    <div class="test-center ml-3 wow slideInRight" data-wow-delay="900ms" data-wow-duration="0.10s"
+                        style="visibility: visible; animation-delay: 700ms; animation-name: slideInRight;">
+                        <h3 class="fw-bolder">Link Building </h3>
+                        <p class="info info_width">Our team puts in continuous efforts to safeguard your business from
+                            search engine penalties by carefully choosing the most suitable linking opportunities for
+                            your business. We excel in generating relevant links and employ a data-driven approach to
+                            direct traffic towards your website.</p>
+                        <button class="btn btn-danger rounded-5 rounded-bottom-5"><a class="text-white"
+                                href="seoPages/linkBuilding.html">Read more</a></button>
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-12 col-lg-6 margin-col">
-                <div class="process_text wow slideInRight" data-wow-delay="900ms" data-wow-duration="0.8s"
-                    style="visibility: visible; animation-delay: 700ms; animation-name: slideInRight;">
-                    <!-- <p class="colored_heading">Our Services</p> -->
-                    <h3 class="fw-bolder">Link Building</h3>
-                    <p class="info info_width">Our team puts in continuous efforts to safeguard your business from search engine penalties by carefully choosing the most suitable linking opportunities for your business. We excel in generating relevant links and employ a data-driven approach to direct traffic towards your website.</p>
-                    <button class="btn-danger rounded-5 rounded-bottom-5"><a class="btn-danger" href="seoPages/organicSEO.html">read more </a></button>
+        </div>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 overflow-hidden">
+                    <div class="process_image figure wow slideInLeft mt-4" data-wow-delay="900ms"
+                        data-wow-duration="0.8s"
+                        style="visibility: visible; animation-delay: 700ms; animation-name: slideInLeft;">
+                        <img src="img/nationseo/ns4 copy.png" class="img-fluid" alt="process image">
+                    </div>
+                </div>
+                <div class="col-md-6 margin-col">
+                    <div class="test-center ml-3 wow slideInRight" data-wow-delay="900ms" data-wow-duration="0.10s"
+                        style="visibility: visible; animation-delay: 700ms; animation-name: slideInRight;">
+                        <h3 class="fw-bolder">National SEO</h3>
+                        <p class="info info_width">Requiring a slightly different approach than local SEO due to a more
+                            diverse target audience and increased competition, our team uses comprehensive national SEO
+                            strategies with the goal to drive more traffic and sales towards your site..</p>
+                        <button class="btn btn-danger rounded-5 rounded-bottom-5"><a class="text-white"
+                                href="seoPages/nationalSeo.html">Read more</a></button>
+                    </div>
                 </div>
             </div>
-        </div>  
+        </div>
     </div>
     <!-- END DETAIL SECTION -->
     <!-- services start -->
@@ -292,7 +345,9 @@
                         <div class="card-body">
                             <a href="seoPages/linkBuilding.html">
                                 <h5 class="card-title">Organic SEO</h5>
-                                <p class="card-text info">Elevate your online presence naturally with our Organic SEO services, focusing on sustainable strategies to improve search engine rankings and visibility authentically.  .</p>
+                                <p class="card-text info">Elevate your online presence naturally with our Organic SEO
+                                    services, focusing on sustainable strategies to improve search engine rankings and
+                                    visibility authentically. .</p>
                             </a>
                         </div>
 
@@ -307,12 +362,13 @@
                         </div>
                         <div class="card-body">
                             <a href="contact-us.html">
-                            <h5 class="card-title">UI/UX Design</h5>
-                            <p class="card-text info">Build the product you need on time with an experienced team that
-                                uses a clear and effective design process.
+                                <h5 class="card-title">UI/UX Design</h5>
+                                <p class="card-text info">Build the product you need on time with an experienced team
+                                    that
+                                    uses a clear and effective design process.
 
-                            </p>
-                        </a>
+                                </p>
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -326,7 +382,9 @@
                             <a href="seoPages/nationalSeo.html">
                                 <h5 class="card-title">National SEO
                                 </h5>
-                                <p class="card-text info">Enhance online visibility and drive traffic with our National SEO services, optimizing your website for top search engine rankings and performance.</p>
+                                <p class="card-text info">Enhance online visibility and drive traffic with our National
+                                    SEO services, optimizing your website for top search engine rankings and
+                                    performance.</p>
                             </a>
                         </div>
 
@@ -341,7 +399,9 @@
                         <div class="card-body">
                             <a href="seoPages/linkBuilding.html">
                                 <h5 class="card-title">Local SEO Services</h5>
-                                <p class="card-text info">Dominate local search results and attract nearby customers with our tailored Local SEO services, optimizing your business for regional success and visibility.</p>
+                                <p class="card-text info">Dominate local search results and attract nearby customers
+                                    with our tailored Local SEO services, optimizing your business for regional success
+                                    and visibility.</p>
                             </a>
                         </div>
 
@@ -356,7 +416,9 @@
                         <div class="card-body">
                             <a href="seoPages/linkBuilding.html">
                                 <h5 class="card-title">Link Building</h5>
-                                <p class="card-text info">Boost your website's authority and search engine rankings with strategic and effective link building services for increased online visibility and credibility.</p>
+                                <p class="card-text info">Boost your website's authority and search engine rankings with
+                                    strategic and effective link building services for increased online visibility and
+                                    credibility.</p>
                             </a>
                         </div>
 
@@ -682,7 +744,6 @@
 
         </div>
     </footer>
-
     <!-- End FOOTER SECTION -->
 
 
