@@ -1359,6 +1359,9 @@ span.team-icons i.lab.la-linkedin-in:hover{
 .blue_text{
     color: #1b7df5;
 }
+.black_text{
+    color:rgb(91, 82, 82)
+}
 
 .team .text{
     position: absolute;
@@ -1972,7 +1975,7 @@ li.footer_list:hover{
    =================================== */
 
 .header5_img{
-    background: url(../img/blog/header5-img.jpg);
+    background: url(../img/banner01.jpeg);
     background-attachment: fixed;
 }
 
@@ -2338,7 +2341,7 @@ span{
 }
 
 .min-post img {
-    width: 100%;
+    width: 60%;
 }
 
 .min-post article {
