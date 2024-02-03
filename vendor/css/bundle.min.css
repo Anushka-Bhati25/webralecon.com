@@ -8221,6 +8221,12 @@ input[type=submit].btn-block {
     float: none
 }
 
+
+
+/* .navbar-expand-sm .navbar-nav  .dropdown-menu{
+        position: absolute
+    } */
+
 .navbar-text {
     display: inline-block;
     padding-top: .5rem;
@@ -8282,9 +8288,7 @@ input[type=submit].btn-block {
         flex-direction: row
     }
 
-    /* .navbar-expand-sm .navbar-nav .dropdown-menu {
-        position: absolute
-    } */
+    
 
     .navbar-expand-sm .navbar-nav .nav-link {
         padding-right: .5rem;
